@@ -1,0 +1,49 @@
+.table,
+th,
+td {
+  border: 1px solid black;
+  height: 50%;
+  width: 50%;
+  text-align: justify;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.messagetoemp {
+  text-align: center;
+  color: brown;
+  font-size: 25px;
+}
+
+.supmessage {
+  text-align: center;
+  color: brown;
+  font-size: 25px;
+}
+
+.hodmessage {
+  text-align: center;
+  color: brown;
+  font-size: 25px;
+}
+
+.bencomessage {
+  text-align: center;
+  color: brown;
+  font-size: 25px;
+}
+
+.form{
+  text-align: center;
+  border: darkblue;
+  
+}
+
