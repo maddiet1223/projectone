@@ -25,8 +25,10 @@ To-do list:
 Getting Started
 * Clone the repository using `git clone https://github.com/maddiet1223/projectone`
 * Backend setup
-    1.Navigate to project folder.
-    2. `npm install typecript'.
+    1.Navigate to project folder
+    2. `npm install typecript'
+        
+        
         3. `npx tsc --init`- for tsconfig file.
                                         1. "target": "es5",                    
                                            "module": "commonjs",
