@@ -25,48 +25,48 @@ To-do list:
 Getting Started
 * Clone the repository using `git clone https://github.com/maddiet1223/projectone`
 * Backend setup:
-        1.Navigate to project folder
-        2. `npm install typecript'
-        3. `npx tsc --init`- for tsconfig file.
-            1. "target": "es5",                    
-               "module": "commonjs",
-            2. in the tsconfig file( uncomment the commented out) 
-                "outDir": "./build",                      
-                "rootDir": "./src", 
-        4. npm init
-           1. entry point: app.js
-        5. `npm install express --save`
-        6. `npm install`
-        7. `npx express-generator`
-        8. `npm install --save-dev babel-jest @babel/core @babel/preset-env @babel/preset-typescript`
-            1.Create babel.config.js
-             ```json
-              module.exports = {
-              presets: [
-              ['@babel/preset-env', {targets: {node: 'current'}}],
-              '@babel/preset-typescript'
-              ]
-            };
-            ```
-       9. For unit testing 
-        1. `npm install --save-dev @types/jest`
-       10.For logging 
-          1.`npm install --save log4js`
-          2. Create `logconfig.json`
-       11.For environment variables
-          1.`npm install --save dotenv`
-          2. add .env to .gitignore
-          3. backend .env file :CLIENT=http://localhost:3001
-          4. frontend .env file: PORT = 3001
-      12.For Dynamo DB
-        1.Configure AWS account  ` aws configure` (use the credentials after you create a user in AWS)
-        2.`npm install --save aws-sdk`
-      13.For CORS:
-            1.`npm install --save cors`.
-            2. `npm install --save-dev @types/cors`.      
-            3.  Add `import cors from 'cors';` and `app.use(cors());`
-      14. install memory store : ` npm install express-session memorystore`      
-            
+                        1.Navigate to project folder
+                        2. `npm install typecript'
+                        3. `npx tsc --init`- for tsconfig file.
+                            1. "target": "es5",                    
+                               "module": "commonjs",
+                            2. in the tsconfig file( uncomment the commented out) 
+                                "outDir": "./build",                      
+                                "rootDir": "./src", 
+                        4. npm init
+                           1. entry point: app.js
+                        5. `npm install express --save`
+                        6. `npm install`
+                        7. `npx express-generator`
+                        8. `npm install --save-dev babel-jest @babel/core @babel/preset-env @babel/preset-typescript`
+                            1.Create babel.config.js
+                             ```json
+                              module.exports = {
+                              presets: [
+                              ['@babel/preset-env', {targets: {node: 'current'}}],
+                              '@babel/preset-typescript'
+                              ]
+                            };
+                            ```
+                       9. For unit testing 
+                        1. `npm install --save-dev @types/jest`
+                       10.For logging 
+                          1.`npm install --save log4js`
+                          2. Create `logconfig.json`
+                       11.For environment variables
+                          1.`npm install --save dotenv`
+                          2. add .env to .gitignore
+                          3. backend .env file :CLIENT=http://localhost:3001
+                          4. frontend .env file: PORT = 3001
+                      12.For Dynamo DB
+                        1.Configure AWS account  ` aws configure` (use the credentials after you create a user in AWS)
+                        2.`npm install --save aws-sdk`
+                      13.For CORS:
+                            1.`npm install --save cors`.
+                            2. `npm install --save-dev @types/cors`.      
+                            3.  Add `import cors from 'cors';` and `app.use(cors());`
+                      14. install memory store : ` npm install express-session memorystore`      
+
   * Frontend setup:
     1. `npm install -g create-react-app`
     2. `npx create-react-app my-app-name --template typescript`
